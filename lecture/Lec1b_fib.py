@@ -14,10 +14,8 @@ def fib1(n):
 
 
 def fib2(n):
-    if n < 2:
-        return n
-    else:
-        return fib2(n - 2) * 2 + fib2(n - 3)
+    # 如何找到更好的办法?
+    pass
 
 
 def main():
